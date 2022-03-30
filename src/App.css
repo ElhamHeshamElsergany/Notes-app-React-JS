@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+body{
+  background-color: rgba(233, 224, 224, 0.308) !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  background: -webkit-linear-gradient(rgb(221, 174, 174), #333);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.LOG{
+    padding: 50px;
+    border-top: 10px solid rgb(154, 78, 206);
+    border-bottom:10px solid rgb(61, 170, 173);
+    background-image: 
+        linear-gradient(rgb(228, 126, 68) , rgb(154, 78, 206), rgb(61, 170, 173)),
+        linear-gradient(rgb(228, 126, 68) , rgb(154, 78, 206), rgb(61, 170, 173))
+    ;
+    background-size:10px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;
+    border-radius: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.butt{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.bttn{
+  background-image: linear-gradient(to right, rgb(228, 126, 68) , rgb(154, 78, 206), rgb(61, 170, 173)) !important;
+  padding: 50px;
+  font-size: 20px !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bttn:hover{
+  transform: scale(1.1);
+  transition: all 1s ease ;
+}
+.bg-navbarr{
+  background-image: linear-gradient(to right, rgb(228, 126, 68) , rgb(154, 78, 206), rgb(61, 170, 173)) !important;
+}
+.navy{
+  font-family:serif;
+}
+.navbar-brand{
+  font-size: 35px !important;
+  background: -webkit-linear-gradient(rgb(116, 112, 112), rgb(20, 19, 19));
+  font-weight: 600;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
